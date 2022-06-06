@@ -1,0 +1,19 @@
+h2 {
+  border-bottom: 5px solid;
+  border-bottom-color: currentcolor;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+}
+
+.container  {
+  margin-bottom: 5rem;
+}
+.foot0 {
+  background-color: aliceblue;
+}
+
+.foot {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}

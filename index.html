@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRL clasificador</title>
+  <link rel="stylesheet" href="./styles/accordion.css">
+  <link rel="stylesheet" href="./styles/entireframework.min.css">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+  <nav class="nav" tabindex="-1" onclick="this.focus()">
+    <div class="container">
+      <a class="pagename current" href="/">Infelcom</a>
+    </div>
+  </nav>
+  <div class="container">
+    <h1> TRL Clasificador</h1>
+    <h2>Desarrollo de la invención</h2>
+    <button class="accordion">TRL 1</button>
+    <div class="panel">
+      <p>TRL 1: Nivel más bajo de la disponibilidad de la solución. Se está investigando un nuevo dominio de la solución
+        por parte de la comunidad científica a nivel de investigación básica. Este nivel comprende el desarrollo de los
+        usos básicos así como las propiedades básicas generales.</p>
+      <br>
+      <div class="row">
+        <div class="col c7">
+          ¿Identificó una problemática y una potencial solución a partir de una idea?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c11" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col c7">
+          ¿Finalizó con la investigación básica de su idea?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c12" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col c7">
+          ¿Diseñó o formuló los algoritmos o formulaciones o principios basicos?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c13" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col c7">
+          ¿Ha identificado los usuarios que se benefician de la solución?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c14" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col c7">
+          ¿La tecnología puede ser protegida mediante algún mecanismo?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c15" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <button class="accordion">TRL 2</button>
+    <div class="panel">
+      <p>TRL 2: Se comienza a investigar las aplicaciones prácticas del nuevo desarrollo aunque las posibles
+        aplicaciones son todavía especulativas.</p>
+      <br>
+      <div class="row">
+        <div class="col c7">
+          ¿Realizó un análisis de aplicaciones prácticas del nuevo desarrollo?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c21" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Realizó un análisis de los artículos científicos, modelos o teorías científicas que respaldan la aplicación
+          de la idea en algún área tecnológica?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c22" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Se perfila un plan de desarrollo estudios y pequeños experimentos proporcionan una “prueba de concepto"?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c23" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Conoce el perfil, necesidades, problemas más recurrentes de los usuarios? ¿Sabe si los posibles usuarios se
+          encuentran buscando una solución al problema que no han podido resolver satisfactoriamente de la manera
+          tradicional?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c24" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Verificó que no esté usando tecnología protegida de terceros en su desarrollo?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c25" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+    </div>
+    <h2>Validación del concepto</h2>
+    <button class="accordion">TRL 3</button>
+    <div class="panel">
+      <p>TRL 3: Se comienza una actividad intensa de I+D y se comienza a demostrar la viabilidad del nuevo desarrollo a
+        través de estudios analíticos y de laboratorio.</p>
+      <br>
+      <div class="row">
+        <div class="col c7">
+          ¿Tiene identificados los componentes de su desarrollo?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c31" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿El concepto y los procesos han sido demostrados a escala de laboratorio?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c32" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Ha llevado a cabo algún proceso de validación precomercial sobre su solución? (conversaciones con posibles
+          usuarios para dar a conocer su solución de manera conceptual, así no se tenga un prototipo final)
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c33" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Diseñó estrategias de protección del desarrollo?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c34" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <button class="accordion">TRL 4</button>
+    <div class="panel">
+      <p>TRL 4: Se comienzan a integrar los diferentes componentes de su desarrollo básico para demostrar que pueden
+        funcionar conjuntamente.</p>
+      <br>
+      <div class="row">
+        <div class="col c7">
+          ¿Ha integrado los componentes principales de su invención tecnológica?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c41" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Ha realizado pruebas de validación de efectividad de dicha invención internamente?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c42" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Su invención tecnológica funcionó internamente?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c43" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Se ha validado la simulación de los procesos ?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c44" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Se ha identificado una propuesta de valor que diferencie el desarrollo con otros y se han identificado los
+          potenciales atributos y beneficios del desarrollo que resuelvan satisfactoriamente los principales problemas o
+          necesidades de los potenciales usuarios?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c45" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Tiene la estructura contractual necesaria (acuerdos de confidencialidad; licencias de terceros de ser el
+          caso)?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c46" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <button class="accordion">TRL 5</button>
+    <div class="panel">
+      <p>TRL 5: En este nivel la nueva tecnología se encuentra preparada para integrarse en sistemas existentes y puede
+        desempeñarse o ejecutarse en entornos simulados?</p>
+      <br>
+      <div class="row">
+        <div class="col c7">
+          ¿El desarrollo se encuentra preparado para integrarse en sistemas existentes?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c51" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿El desarrollo puede ejecutarse en un entorno simulado?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c52" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Ha probado un prototipo o su solución preliminar con usuarios?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c53" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Tiene validada la propuesta de valor con potenciales usuarios o clientes de la tecnología que aprecien de
+          manera significativa los beneficios o atributos porque resuelven el problema satisfactoriamente?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c54" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con los soportes de la titularidad de la propiedad intelectual de la tecnología desarrollada?
+          (acuerdos de PI, documentos de cesión de derechos patrimoniales)
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c55" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <h2>Producción, piloto y demostración</h2>
+    <button class="accordion">TRL 6</button>
+    <div class="panel">
+      <p>TRL 6: En este nivel se pasaría de las implementaciones a nivel de prototipo de laboratorio a implementaciones
+        completas en entornos reales</p>
+      <br>
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con una versión preliminar o producto mínimo viable probado?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c61" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Se ha analizado la implementación del desarrollo como producto final?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c62" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Se ha validado con usuarios finales satisfactoriamente?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c63" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con una organización operativa para llevar a mercado el desarrollo? (comercial, técnico,
+          administrativo)
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c64" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Ha magnificado y/o cuantificado los diferenciales de la solución con los clientes potenciales en función de
+          demostrar los beneficios y propuesta de valor de manera aplicada?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c65" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con algún tipo de protección provisional?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c66" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <button class="accordion">TRL 7</button>
+    <div class="panel">
+      <p>TRL 7: Desarrollo de Producto.Demostración de prototipo a nivel sistema en un ambiente operativo real (sistema
+        real)Producción a baja escala para demostración en ambiente operativo real. </p>
+      <br>
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con usuarios finales que prueben la versión final del desarrollo?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c71" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Se han identificado las cuestiones de la fabricación y operaciones finales?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c72" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con un producto terminado para prueba con primeros clientes?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c73" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con una estructura organizacional adecuada para la implementación de pruebas de la tecnología con
+          clientes?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c74" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con una base de datos de clientes con interés en usar el desarrollo?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c75" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Ha identificado ferias o eventos importantes del segmento de clientes potenciales a los que pueda asistir y
+          generar networking?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c76" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Ha identificado asociaciones clave que debe desarrollar (gremios, entidades gubernamentales, etc)?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c77" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Tiene ya implementados sus mecanismos de protección?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c78" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <h2>Introducción inicial al mercado</h2>
+    <button class="accordion">TRL 8</button>
+    <div class="panel">
+      <p>TRL 8: En este nivel todas las funcionalidades del nuevo desarrollo se encuentran simuladas y probadas en
+        escenarios reales</p>
+      <br>
+      <div class="row">
+        <div class="col c7">
+          ¿Tiene un producto comercializable?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c81" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Su desarrollo cumple con estándares de la industria?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c82" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con la versión final simulada y probada con diferentes escenarios?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c83" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Elaboró los documentos para la utilización y mantenimiento del producto (manual del usuario, soporte
+          técnico)?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c84" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Monitorea los niveles de precio, publicaciones y comunicación de la competencia de manera sistemática?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c85" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Ha llevado a cabo evaluaciones cuantitativas de desempeño de los atributos clave vs competidores?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c86" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Ha desarrollado una estructura contractual propia acorde a sus validaciones comerciales?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c87" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <h2> Expansión de mercado</h2>
+    <button class="accordion">TRL 9</button>
+    <div class="panel">
+      <p>TRL 9: En este nivel la nueva tecnología se encuentra totalmente disponible y se puede utilizar en cualquier
+        entorno real</p>
+      <br>
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con cambios incrementales de producto que lo lleven a crear nuevas versiones?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c91" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿La tecnología se encuentra lista para ser explotada comercialmente con cuestiones de diseño?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c92" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Cuenta con infraestructura comercial y operativa para comercializar y producir la tecnología a clientes
+          finales?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c93" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Tiene una base de clientes potenciales dispuestos a pagar por usar la tecnología?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c94" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Ha validado su esquema de protección a nivel internacional en los mercados de interés?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c95" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col c7">
+          ¿Tiene su esquema de transferencia tecnológica diseñado?
+        </div>
+        <div class="col c3">
+          <!-- Rounded switch -->
+          <label class="switch">
+            <input id="c96" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+    <h2>Resultados</h2>
+    <div>
+      TRL <span id="trl-span"></span>
+    </div>
+    <div>
+      CRL <span id="crl-span"></span>
+    </div>
+    <div>
+      PI <span id="pi-span"></span>
+    </div>
+    <div>
+      MRL <span id="mrl-span"></span>
+    </div>
+    <button class="btn btn-sm classless" onclick="reset()">Resetear</button>
+
+  </div>
+  <nav class="foot0" tabindex="-1" onclick="this.focus()">
+    <div class="foot">Designed and develop By <a href="https://github.com/useregistrado/">Oscar Vargas</a></div>
+  </nav>
+  <link rel="stylesheet" href="./styles/toggle.css">
+  <script src="./js/accordion.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
